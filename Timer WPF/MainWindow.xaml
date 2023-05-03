@@ -1,0 +1,10 @@
+﻿<Window x:Class="Timer_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Timer_WPF"
+        mc:Ignorable="d"
+        Title="Timer" Height="430" Width="850" WindowStartupLocation="CenterScreen" WindowState="Normal" ResizeMode="CanMinimize"  Icon="/icon/icons8-time-50.png">
+    <Frame x:Name="frame" Content="Frame"   Source="/frame/Page1.xaml" NavigationUIVisibility="Hidden" />
+</Window>
